@@ -1,5 +1,6 @@
 package com.raghava.springdocker;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -7,10 +8,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
+@Slf4j
 public class SpringDockerApplication {
 
 	@GetMapping("/hello")
 	public String greeting(){
+		log.info("Sample Log Message");
 		return "Hello Docker";
 	}
 	public static void main(String[] args) {
