@@ -23,6 +23,9 @@ To access files inside the container
 * it = integrated terminal
 * ![img_1.png](img_1.png)
 
-To Create the docker image with JIB. Follow the below article
+To create docker images using Google Jib Follow below articles
 * https://codippa.com/gradle-docker-images/
 * https://medium.com/@ujjawalr/build-docker-images-with-gradle-jib-plugin-6ce29543beb5
+
+Command to build gradle image
+* gradle jibDockerBuild --image=spring-docker:1.5
