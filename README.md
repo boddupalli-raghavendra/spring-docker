@@ -22,3 +22,7 @@ To access files inside the container
 * docker exec -it <container id> <path to access>
 * it = integrated terminal
 * ![img_1.png](img_1.png)
+
+To Create the docker image with JIB. Follow the below article
+* https://codippa.com/gradle-docker-images/
+* https://medium.com/@ujjawalr/build-docker-images-with-gradle-jib-plugin-6ce29543beb5
